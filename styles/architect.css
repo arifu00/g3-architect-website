@@ -1,0 +1,110 @@
+/* universel select  */
+
+* {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* common related styles */
+.btn-primary {
+    border-radius: 8px;
+    background: #FF900E;
+    border: 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 20px 25px;
+}
+
+/* header styles  */
+header {
+    background: rgba(255, 144, 14, 0.10);
+    padding: 40px 220px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+    color: #131313;
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+ul {
+    display: flex;
+
+}
+
+ul>li {
+    list-style: none;
+    margin-right: 30px;
+}
+
+ul>li>a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #424242;
+}
+
+/* header styles end */
+
+/* banner styles start  */
+
+.banner-content {
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.banner-title {
+    color: #131313;
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.banner-description {
+    color: #727272;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+.banner-img{
+    width: 100%;
+    margin-top: 30px;
+}
+/* banner styles end  */
+
+
+
+
+/* responsive styles  */
+
+/* mobile device  */
+@media screen and (max-width:576px) {
+    header {
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+}
+
+/* tablet or medium device */
+@media screen and (min-width:576px) and (max-width:960px) {
+    header {
+        padding: 50px;
+    }
+    nav{
+        flex-direction: column;
+    }
+}
